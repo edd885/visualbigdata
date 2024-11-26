@@ -1,9 +1,1 @@
-Contenido
-
-Uso
-
-Instrucciones
-
-Contribuciones
-
-Contacto
+Carpeta que contiene los archivos .dbc, .ipynb usados en este repositorio
