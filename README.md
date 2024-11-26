@@ -52,19 +52,32 @@ La capacidad de manejar grandes volúmenes de datos es fundamental en la era del
 
 ---
 
-### **Challenge 3: Análisis Avanzado con PySpark**
-- **Descripción**: Este último desafío relaciona el análisis de grandes bases de datos con el tema de tesis de cada estudiante.
-- **Objetivo**: Realizar un análisis avanzado utilizando PySpark, empleando APIs como Spark Streaming o Spark ML para análisis en tiempo real o construcción de modelos predictivos.
-- **Actividades**:
-  - Seleccionar una base de datos relevante (ej., datos del Banco Mundial).
-  - Usar Spark Streaming o Spark ML para realizar un análisis detallado.
-  - Crear una presentación y documentar los resultados en GitHub.
-- **Métricas de evaluación**:
-  - Relación clara con el tema de tesis (20%).
-  - Uso avanzado de PySpark (25%).
-  - Análisis detallado y conclusiones (25%).
-  - Calidad de la presentación (20%).
-  - Organización del código en GitHub (10%).
+#### **Challenge 3: Análisis Avanzado con PySpark y Visualización de Datos Categóricos**
+
+- **Descripción**:  
+  Este notebook se centra en el análisis y la visualización de una gran base de datos categóricos relacionados con la salud de pacientes, utilizando PySpark y herramientas avanzadas de visualización. El objetivo principal es identificar patrones relevantes en los datos, enfocándose en atributos que requieren atención médica. Los resultados son comunicados a través de gráficos detallados que facilitan la interpretación de los hallazgos.
+
+- **Objetivo del Challenge**:  
+  Desarrollar un análisis avanzado que permita:
+  1. Procesar y entender grandes bases de datos categóricos.
+  2. Implementar visualizaciones efectivas para comunicar resultados clave.
+  3. Integrar herramientas de Big Data (PySpark) y librerías modernas de visualización como **Altair** para generar insights aplicados.
+
+- **Actividades Realizadas**:
+  - Análisis descriptivo para determinar:
+    - Distribución de valores normales (`0`) y fuera de rango (`1`) en cada atributo.
+    - Identificación de los atributos más relevantes para la atención médica (`'Flavonoides'`, `'Campo_magnetico_constante'`, `'Vit_E'`).
+  - Exploración a nivel de paciente para identificar filas con más características fuera de rango.
+  - Creación de gráficos interactivos y representaciones visuales usando **Altair**.
+  - Optimización del código para trabajar con grandes volúmenes de datos.
+
+- **Resultados Técnicos Esperados**:
+  - Dominio de PySpark en el manejo de datos categóricos.
+  - Capacidad para interpretar y visualizar datos a nivel macro (por atributo) y micro (por paciente).
+  - Habilidad para utilizar herramientas de visualización avanzada para comunicar hallazgos complejos.
+
+- **Impacto en el Alumno**:  
+  Este challenge refuerza habilidades críticas en el análisis y visualización de datos categóricos, relevantes tanto en contextos académicos como en aplicaciones del mundo real. Los estudiantes desarrollan competencias avanzadas para trabajar con grandes volúmenes de datos categóricos en un entorno distribuido y comunicar resultados de manera efectiva.
 
 ---
 
